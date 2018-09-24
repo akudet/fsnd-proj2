@@ -1,0 +1,10 @@
+.sidebar {
+    position: relative;
+    top: 100px;
+    width: 10%;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+}
