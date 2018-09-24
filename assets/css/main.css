@@ -1,9 +1,9 @@
-main {
-    display: flex;
-    flex-wrap: wrap;
+body {
+    min-width: 320px;
 }
 
 header {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -24,8 +24,50 @@ header {
     margin: 0.2em 0;
 }
 
-.works {
+main {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.showcase-container {
+    width: 100%;
+}
+
+.showcase-container .showcase-image {
+    width: 100%;
+}
+
+.works-container {
+    width: 100%;
+}
+
+.works-container h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #7d97ad;
+}
+
+.works {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work {
+    text-align: center;
+    overflow: hidden;
+}
+
+.work h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0.2em 0;
+}
+
+.work p {
+    margin: 0.2em 0;
 }
 
 .logo-image {
