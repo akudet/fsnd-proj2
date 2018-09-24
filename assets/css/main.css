@@ -1,13 +1,34 @@
-header, main, footer {
+main {
     display: flex;
     flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    text-align: right;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0.2em 0;
+}
+
+.header-text h4 {
+    margin: 0.2em 0;
 }
 
 .works {
     display: flex;
 }
 
-.header-image {
+.logo-image {
     background-color: mediumorchid;
     width: 64px;
     height: 64px;
