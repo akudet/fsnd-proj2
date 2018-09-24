@@ -1,0 +1,31 @@
+header, main, footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works {
+    display: flex;
+}
+
+.header-image {
+    background-color: mediumorchid;
+    width: 64px;
+    height: 64px;
+}
+
+.side-image {
+    width: 64px;
+    height: 64px;
+}
+
+.showcase-image {
+    background-color: chartreuse;
+    width: 720px;
+    height: 480px;
+}
+
+.work-image {
+    background-color: aqua;
+    width: 240px;
+    height: 188px;
+}
