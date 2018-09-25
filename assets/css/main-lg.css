@@ -1,8 +1,13 @@
 .sidebar {
     position: relative;
-    top: 100px;
+    top: 120px;
     width: 10%;
+    flex-wrap: wrap;
     flex-direction: column;
+}
+
+.side-item {
+    width: 80%;
 }
 
 .container {

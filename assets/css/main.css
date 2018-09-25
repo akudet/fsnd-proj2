@@ -3,6 +3,7 @@
 }
 
 body {
+    min-width: 320px;
     max-width: 1020px;
     margin: auto;
     display: flex;
@@ -13,16 +14,20 @@ body {
 .sidebar {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
 .side-item {
+    width: 12%;
+    min-width: 54px;
+    max-width: 64px;
+    margin: 0.2em;
     text-align: center;
 }
 
-.side-item .side-image {
-    margin: 8px 8px 8px 0;
+.side-item img {
+    width: 100%;
 }
 
 .side-item p {
@@ -30,8 +35,6 @@ body {
 }
 
 .container {
-    min-width: 320px;
-    max-width: 920px;
     width: 100%;
     margin: auto;
 }
@@ -42,6 +45,17 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-image {
+    width: 20%;
+    min-width: 64px;
+    max-width: 96px;
+}
+
+.header-image img {
+    width: 100%;
+    max-width: 96px;
 }
 
 .header-text {
@@ -95,12 +109,18 @@ main {
 }
 
 .work-item {
+    min-width: 240px;
+    max-width: 320px;
+    width: 32%;
     text-align: center;
-    overflow: hidden;
+}
+
+.work-item img {
+    width: 100%;
 }
 
 .work-item h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: normal;
     margin: 0.2em 0;
 }
@@ -109,19 +129,4 @@ main {
     margin: 0.2em 0;
 }
 
-.side-image {
-    width: 64px;
-    height: 64px;
-}
 
-#side-image1 {
-    background-color: #02b3e4;
-}
-
-#side-image2 {
-    background-color: #2d3c49;
-}
-
-#side-image3 {
-    background-color: #7d97ad;
-}
